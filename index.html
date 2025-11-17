@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="Theia Cafe- comforting meals,familiar flavours ,and a space that feels like home, here in the heart of the city">
+    <title>Theia Cafe- Comfort on a plate,warmth in every bite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <h1>Theia Cafe</h1>
+                    <span class="tagline">Home-style indian cafe with italian touch</span>
+                    </div>
+                    <ul class="navlinks">
+                        <li ><a href="#Home">Home</a></li>
+                        <li><a href="#Menu">Menu</a></li>
+                        <li><a href="#About">About us</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+            
+                    </ul>
+                
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="Home" class="hero">
+            <div class="hero-content">
+
+                <h2>Welcome to Theia Cafe</h2>
+                <p>Experience the warmth of Indian homestyle cooking with a delightful touch of Italian flair</p>
+                <div class="hero-buttons">
+                    <a href="#Menu" class="btn btn-prim">View Menu</a>
+                    <a href="#contact" class="btn  btn-sec">Make Reservation</a>
+
+
+                </div>
+            </div>
+        </section>
+        <section id="Menu" class="menu">
+            <div class="menu-content">
+            <h2 class="title">Our Menu</h2>
+            <p class="subtitle">Our carefully crated bites</p>
+            <div  class="menu-categories">
+                <div class="menu-category">
+                    <h3>Appetizier</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <h4>Pizza Bites</h4>
+                            <p>Topped with paneer cheese and arugula </p>
+                            <span class="price">$12</span>
+                            </div>
+                        <div class="menu-item">
+                            <h4>peri-peri cheese balls</h4>
+                            <p>stuffed with aloo and mozrella cheese </p>
+                            <span class="price">$14</span>
+                            
+                               </div>
+                </div>
+                
+                        </div>
+                </div>
+                
+            </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Theia Cafe</h2>
+                <div class="about-content">
+                    <div class="image">
+                    <img src="https://media.istockphoto.com/id/944478708/photo/couple-eating-lunch-with-fresh-salad-and-appetizers.jpg?s=612x612&w=0&k=20&c=xZdIIHvakQrYCbR59RM8nrhEnw-xu4nE-BOeOhQPnck=" alt="food">
+                    
+                </div>
+                    <div class="about-text">
+                        <h3>Our Story</h3>
+                        <p>It all started in a small kitchen, where homestyle recipes were cooked with love and shared with family. Soon, neighbors gathered too, drawn by the warmth of food that felt like home.<br>
+In 2022, this passion grew into a dream—a café where every plate carries the same comfort, and every guest feels like family.</p>
+ 
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-content">
+                <div class="contact-info" >
+                    <h3>Get in Touch</h3>
+                    <div class="contact-item">
+                        <strong>Address:</strong>
+                        <P>Theia Café
+#24, 2nd Floor, MG Road,
+Near Trinity Metro Station,
+Bangalore – 560001, Karnataka, India</P>
+<div class="contact-item">
+                        <strong>Email:</strong>
+<p>info@theiacafe.com</p>
+
+</div>
+<div class="contact-item">
+                        <strong>Phone:</strong>
+<p>91+8618590822</p>
+
+</div>
+
+
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Make a Reservation</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Full Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                         <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                         <div class="form-group">
+                            <label for="phone">Phone No:</label>
+                            <input type="number" id="phone" name="phone">
+                        </div>
+                          <div class="form-group">
+                            <label for="res">Reservation Date:</label>
+                            <input type="date" id="res" name="res">
+                        </div>
+                         <div class="form-group">
+                            <label for="time">Time:</label>
+                            <select id="time" name="time" required>
+                                <option value="">Select Time</option>
+                                <option value="18:00">6:00pm</option>
+                                <option value="19:00">7:00pm</option>
+                                <option value="20:00">8:00pm</option>
+                                <option value="21:00">9:00pm</option>
+
+
+
+
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="guest">Number of Guest:</label>
+                            <select id="guest" name="guest" required>
+                                <option value="">Select:</option>
+                                <option value="2">2 Guest</option>
+                                <option value="4">4 Guest</option>
+                                <option value="5">5 Guest</option>
+                                <option value="6">6 Guest</option>
+
+                            </select>
+                              
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Special Requests:</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Any special dietary request"></textarea>
+
+                        </div>
+                        <button type="submit" class="btn btn-prim">Submit Reservation</button>
+
+                    </form>
+                </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Theia Cafe</h3>
+                    <p>Homestyle recipes with italian flare</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>   <li><a href="#home">HOME</a></li>
+                    <li><a href="#menu">MENU</a></li>
+                    <li><a href="#about">About-Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    </ul>
+                 
+                    
+                </div>
+                <div class="footer-section">
+                    <h4>Opening Hours</h4>
+                    <p>Monday-Thursday:11:00AM</p>
+                    <p>Friday-Saturday:11:00AM</p>
+                    <P>Sunday:12:00pm-9:00pm</P>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-links">Facebook</a>
+                        <a href="#" class="social-links">Instagram</a>
+                        <a href="#" class="social-links">Twitter</a>
+
+                    </div>
+
+            </div>
+         
+        </div>
+           <div class="footer-bottom">
+                <p>@ 2022 Theia Cafe. All rights reserved.</p>
+            </div>
+    </footer>
+    
+</body>
+</html>
